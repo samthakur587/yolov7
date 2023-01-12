@@ -30,14 +30,82 @@ MS COCO
 
 #detection results :
 
-![image](https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2289_jpeg_jpg.rf.e512a8d7e72d4a33c5667d2a0685ef7f.jpg)  
-![image](https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2301_jpeg_jpg.rf.822c0a62daa53448f5e66fadb2b15b85.jpg)
-![image](https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2319_jpeg_jpg.rf.69bba80dec0a0d4866c4037b3a12dcff.jpg)
-![image](https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2347_jpeg_jpg.rf.cc26b11c425d65a90061fabb993cabab.jpg)
-![image](https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2380_jpeg_jpg.rf.d443c2adf80f2ed4fc631a397187f1f2.jpg)
+# 4x4 grid image in README.md
 
-here the ![link](https://universe.roboflow.com/roboflow-100/aquarium-qlnqy)
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2371_jpeg_jpg.rf.12162e15de98f7727a6eb73959ccadbf.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2379_jpeg_jpg.rf.7323190d638f08476c5de9cb833cab05.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2380_jpeg_jpg.rf.d443c2adf80f2ed4fc631a397187f1f2.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2387_jpeg_jpg.rf.49c671cc255041888c34bb0f0c3d4018.jpg" width="256" height="256">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2395_jpeg_jpg.rf.51fc3cbc72408d1d85eac556b2be6643.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2423_jpeg_jpg.rf.39aca9cd118509b10f192b87e7ce9692.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2434_jpeg_jpg.rf.91884b7faef7b7ef2f6d1b4a9f5156dc.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2446_jpeg_jpg.rf.3aca192d35cd5a89a443c4f6932d9842.jpg" width="256" height="256">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2448_jpeg_jpg.rf.d64214bb530655f321dde92529475458.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2450_jpeg_jpg.rf.f4281c6909578c3d8042ac580f9c006d.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2465_jpeg_jpg.rf.ffc005c4b0cc5ecae8e5b06fda23bdbb.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2466_jpeg_jpg.rf.f199a14fb75e6d61214de954d3ad55e6.jpg" width="256" height="256">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2468_jpeg_jpg.rf.c6cd976633535d0af9d098accc6a13e0.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2470_jpeg_jpg.rf.2b5a5216a02ed3f818b04553de4fb7aa.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2473_jpeg_jpg.rf.97405e1e2aee76cf48b99ed0a8d7b743.jpg" width="256" height="256">
+    </td>
+    <td>
+      <img src="https://github.com/samthakur587/yolov7/blob/main/exp/IMG_2477_jpeg_jpg.rf.bb99d0a91aa3334482b50eb2466b50cd.jpg" width="256" height="256">
+    </td>
+  </tr>
+</table>
+
+
+# here the ![link](https://universe.roboflow.com/roboflow-100/aquarium-qlnqy) for dataset
+
+# Use API to download dataset from roboflow
+
+>!pip install roboflow
+
+>from roboflow import Roboflow
+
+>rf = Roboflow(api_key="FO51sqPkzf1OEgMmcptR")
+
+>project = rf.workspace("roboflow-100").project("aquarium-qlnqy")
+
+>dataset = project.version(2).download("yolov7")
 
 ![License]()
 
-![LinkedIN](https://www.linkedin.com/in/samunder-singh-265508202/)
+# ![LinkedIN](https://www.linkedin.com/in/samunder-singh-265508202/)
